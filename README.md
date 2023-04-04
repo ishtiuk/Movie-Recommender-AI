@@ -14,6 +14,13 @@ In addition to the features provided in the dataset, this movie recommender AI s
 
 To use this movie recommender AI system, simply provide the title of a movie as input, and it will recommend 8 similar movies based on the movie's features. You can adjust the number of recommended movies by changing the value in the code.
 
+## License
+
+This project is licensed under the [MIT License](https://github.com/ishtiuk/Movie-Recommender-AI/blob/main/LICENSE).
+
+## Credits
+
+This movie recommender AI system was developed by [your-name](https://github.com/ishtiuk). Special thanks to the creators of the [TMDB movie metadata dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) and [TMDB API](https://www.themoviedb.org/documentation/api) for providing the data and movie poster links, respectively.
 
 
 ```python
@@ -23,12 +30,5 @@ moviename = "the avengers"
 print("\n\n[RECOMMENDATIONS]\n")
 
 for movie_data in recommender_engine(moviename):
-  print(movie_data)```
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Credits
-
-This movie recommender AI system was developed by [your-name](https://github.com/your-username). Special thanks to the creators of the [TMDB movie metadata dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) and [TMDB API](https://www.themoviedb.org/documentation/api) for providing the data and movie poster links, respectively.
+  print(movie_data)
+  
