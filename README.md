@@ -20,7 +20,7 @@ This project is licensed under the [MIT License](https://github.com/ishtiuk/Movi
 
 ## Credits
 
-This movie recommender AI system was developed by [your-name](https://github.com/ishtiuk). Special thanks to the creators of the [TMDB movie metadata dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) and [TMDB API](https://www.themoviedb.org/documentation/api) for providing the data and movie poster links, respectively.
+This movie recommender AI system was developed by [Md. Ishtiuk Ahammed](https://github.com/ishtiuk). Special thanks to the creators of the [TMDB movie metadata dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) and [TMDB API](https://www.themoviedb.org/documentation/api) for providing the data and movie poster links, respectively.
 
 
 ```python
