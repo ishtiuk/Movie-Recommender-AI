@@ -11,8 +11,10 @@ The dataset used for this project is the [TMDB movie metadata dataset](https://w
 To use this movie recommender AI system, simply provide the title of a movie as input, and it will recommend 7 similar movies based on the movie's features. You can adjust the number of recommended movies by changing the value in the code.
 
 ```python
-# Example usage
-from movie_recommender import recommend_movies
+# Example usage.
 
-# recommend 10 movies similar to "The Dark Knight"
-recommend_movies("The Dark Knight", num_movies=10)
+moviename = "the avengers"
+print("\n\n[RECOMMENDATIONS]\n")
+
+for movie_data in recommender_engine(moviename):
+  print(movie_data)
