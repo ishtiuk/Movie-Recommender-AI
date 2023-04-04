@@ -4,11 +4,17 @@ This is a movie recommender AI system that uses a content-based approach to reco
 
 ## Dataset
 
-The dataset used for this project is the [TMDB movie metadata dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata), which contains information about over 5000 movies, including their titles, overview texts, genres, keywords, cast characters info, and director names.
+The dataset used for this project is the [TMDB movie metadata dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset), which contains information about over 5000 movies, including their titles, overview texts, genres, keywords, cast characters info, and director names.
+
+## Description
+
+In addition to the features provided in the dataset, this movie recommender AI system also collects the movie poster link using the movie's TmdbId from the [TMDB API](https://www.themoviedb.org/documentation/api), which is used to display the movie poster in the recommendation results.
 
 ## Usage
 
-To use this movie recommender AI system, simply provide the title of a movie as input, and it will recommend 7 similar movies based on the movie's features. You can adjust the number of recommended movies by changing the value in the code.
+To use this movie recommender AI system, simply provide the title of a movie as input, and it will recommend 8 similar movies based on the movie's features. You can adjust the number of recommended movies by changing the value in the code.
+
+
 
 ```python
 # Example usage.
