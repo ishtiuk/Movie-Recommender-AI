@@ -23,4 +23,12 @@ moviename = "the avengers"
 print("\n\n[RECOMMENDATIONS]\n")
 
 for movie_data in recommender_engine(moviename):
-  print(movie_data)
+  print(movie_data)```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Credits
+
+This movie recommender AI system was developed by [your-name](https://github.com/your-username). Special thanks to the creators of the [TMDB movie metadata dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) and [TMDB API](https://www.themoviedb.org/documentation/api) for providing the data and movie poster links, respectively.
