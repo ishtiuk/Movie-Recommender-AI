@@ -26,7 +26,7 @@ This movie recommender AI system was developed by [Md. Ishtiuk Ahammed](https://
 
 ```python
 
-moviename = "the avengers"
+moviename = "john wick"
 print("\n\n[RECOMMENDATIONS]\n")
 
 for movie_data in recommender_engine(moviename):
