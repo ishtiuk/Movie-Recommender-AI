@@ -1,6 +1,6 @@
 flask
 numpy
-pandas==1.5.3
+pandas
 scikit-learn
 pickle5
 zipfile36
