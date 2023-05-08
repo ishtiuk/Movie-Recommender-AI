@@ -1,5 +1,4 @@
 import sys
-import requests
 import numpy as np
 from flask import Flask, render_template, request, url_for, redirect
 from pickle import load
