@@ -1,0 +1,7 @@
+flask
+numpy
+pandas
+scikit-learn
+pickle5
+zipfile36
+gunicorn
